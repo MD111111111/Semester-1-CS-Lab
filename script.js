@@ -11,3 +11,10 @@ for (var i = 0; i < 6; i++) {
 }
 return color;
 }
+function flashColors() {
+    var flashes = document.querySelectorAll(".flash");
+    flashes.forEach(getRandomColor)
+    
+    }
+    
+    setInterval(flashColors,100)
